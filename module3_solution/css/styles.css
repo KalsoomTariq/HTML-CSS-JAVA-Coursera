@@ -1,0 +1,130 @@
+body {
+    font-size: 16px;
+    background-color: #362417;
+    color: #fff;
+    font-family: 'Open Sans' sans-serif;
+}
+
+#navbar-button{
+    margin-left: 50vw;
+}
+
+#header-nav{
+    
+    background-color: #f1dabf;
+    border-radius: 0;
+    border: 0;    
+}
+.navbar-brand h1 { 
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    position: relative;
+    border: 1px solid #362417;
+}
+
+#navbar-list-1{  
+    margin:0;
+    padding: 0;
+}
+
+#nav-list {
+    background-color: #04030f ;
+    margin:0;
+    padding: 0;
+}
+#nav-list a {
+    color: #fffbff;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #92817a;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#nav-list{
+    visibility: hidden;    
+}
+
+#main-heading{
+    margin-top: -30px;
+}
+
+.dish{
+    background-color: #f1dabf;
+    color: #04030f;
+    margin:0 auto 15px;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 5px solid #04030f;
+    overflow: hidden;
+}
+
+.dish > h3{
+    color: #362417;
+    font-weight: bold;
+}
+
+.dish > p{
+    padding: 5px;
+    font-style: italic;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    #navbar-list-1{  
+        background-color: #362417;
+    }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #navbar-list-1{  
+        background-color: #362417;
+    }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #navbar-list-1{  
+        background-color: #362417;
+    }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #nav-list{
+        
+        visibility:visible;    
+    }
+
+    .dish{
+        margin:0 auto 15px;
+    } 
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .dish{
+        margin:0 auto 15px;
+    } 
+
+}
+
+
+
